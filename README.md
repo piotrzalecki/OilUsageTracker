@@ -7,3 +7,7 @@ It has functions as below:
 - adding and viewing measures of oil level,
 - showing average oil usage,
 - sowing estimated end of oil date.
+
+Version marked as 0.5 becouse of lack of features as:
+- deleting previouse measures
+- editing previouse measures 

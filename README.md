@@ -1,4 +1,4 @@
-# OilUsageTracker application
+# OilUsageTracker
 This repository contain java files for oil level tracking application.  
 This basic application has been made to track oil usage and to predict estimated end of oil date.
 Current version is 0.5.

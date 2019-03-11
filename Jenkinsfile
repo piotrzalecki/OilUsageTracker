@@ -4,7 +4,9 @@ pipeline {
 	stages {
 	  stage('Build') {
 		steps{
-			echo "Hello Building"	
+			echo "Hello Building"
+			javac OilUsageTracker.java
+			jar -cvf OilTracker.jar OilUsageTracker.class	
 		}
 	  }
 	  

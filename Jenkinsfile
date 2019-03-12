@@ -25,6 +25,17 @@ pipeline {
 		}
 	  }
 	}
+	post {
+		success{
+		archiveArtifacts(artifacts: "*.jar", allowEmptyArchive: true
+		}
+		failure{
+			echo "Build Failde"
+		}
+	
+	}
+
+
 }
 
 
